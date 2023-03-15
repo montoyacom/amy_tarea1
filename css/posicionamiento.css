@@ -19,7 +19,7 @@
 
 #three{
    
-    position: sticky;  /*absolute, relative, sticky, static y fixed, posición de elementos.*/
+    position: fixed;  /*absolute, relative, sticky, static y fixed, posición de elementos.*/
     top: 20px;
     left: 500px;
     background: palevioletred;
