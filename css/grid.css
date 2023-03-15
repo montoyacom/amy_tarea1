@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 5px;
+    align-content: center;
+    /*width: 200px;*/
+    height: 100px;
+}
+
+body{
+    min-height: 100%;
+}
+
+html{
+    height: 100%;
+}
+.grid-container > *{
+    text-align: center;
+    border-radius: 25px;
+ 
+}
+
+.header1{
+    grid-area: header1;
+    background-color: chocolate;
+
+}
+
+.navbar{
+    grid-area: navbar;
+    background-color: rgb(165, 180, 79);
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(131, 185, 106);
+}
+
+.main{
+    grid-area: main;
+    background-color: rgb(91, 184, 164);
+}
+
+.footer1{
+    grid-area: footer1;
+    background-color: rgb(130, 107, 184);
+}
+
+/*Telefono*/
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header1"
+    "navbar"
+    "sidebar"
+    "main"
+    "footer1";
+}
+/*Tablet*/
+@media(min-width:600px){
+    .grid-container{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+        "header1 header1"
+        "navbar sidebar"
+        "main main"
+        "footer1 footer1"
+        ;
+    }
+}
+/*Escritorio*/
+@media(min-width:900px){
+    .grid-container{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+        "header1 header1 header1"
+        "navbar sidebar main"
+        "footer1 footer1 footer1"
+        ;
+    }    
+}

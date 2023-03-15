@@ -1,0 +1,34 @@
+.box {
+    display: inline-block; /* controla la estructura, la posición de la pantalla.*/
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: pink; /*Fondo*/
+    color: white;/*Color texto*/
+
+
+}
+
+
+#two{
+   
+    position: sticky;  /*absolute, relative, sticky, static y fixed, posición de elementos.*/
+    top: 20px;
+    left: 20px;
+    background: palevioletred;
+}
+
+#three{
+   
+    position: sticky;  /*absolute, relative, sticky, static y fixed, posición de elementos.*/
+    top: 20px;
+    left: 500px;
+    background: palevioletred;
+}
+
+.outer{ /**/
+
+    width: 500px;
+    height: 400px;
+    overflow: scroll; /*visible, auto, hidden, scroll; de que manera se va ver la página.*/
+    padding-left: 400px;
+}

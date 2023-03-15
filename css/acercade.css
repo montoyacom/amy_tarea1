@@ -1,0 +1,61 @@
+*{font-family:'Courier';}
+h3{font-family: 'Arial Black';}
+.card {
+    margin: 0.5em 3em;
+    padding: 0.5em 2em;
+    background-color:linear-gradient(to right, rgb(123, 104, 19), rgb(245, 207, 37));
+    border: 2px solid rgb(255, 255, 255);
+}
+
+/*Parte de una seccion*/
+section{
+    width: 60%;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    margin: 0.1em 1em;
+    padding: 0.1em 1em;
+    color: antiquewhite;
+    
+
+}
+
+article{
+    margin: 0.5em 3em;
+    padding: 0.5em 2em;
+    background:linear-gradient(to right, rgb(123, 104, 19), rgba(70, 66, 18, 0.87));
+    border: 2px solid rgb(202, 200, 200);
+    color: black;
+    border-radius: 20px;
+    
+}
+
+aside{
+    width: 25%;
+    float: right;
+    background:linear-gradient(to right, rgb(123, 104, 19), rgba(70, 66, 18, 0.87));
+    padding: 0.3em 2em;
+    margin: 0.3em 2em;
+    border-radius: 20px;
+    color: black;
+
+}
+
+footer{
+    background:linear-gradient(to right, rgb(123, 104, 19), rgba(70, 66, 18, 0.87));
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 45px;
+    margin: 10px;
+    clear: both;
+}
+/*
+top,right,button,left
+05em refiere a top y bottom y 3em refiere a izquierda derecha
+*/
+
+/*Medidas absolutas: pxeles "px"*/
+/*Medidas relativas: "em" referencia a la fuente del navegador*/
+/*"rem" se adapta a la fuente raiz de html*/
+/*Medidas flexibles "vw" 100 vw referencia al 100 de nuestra ventana*/
+/*vmin/vimax se calculcan respecto al ancho del viewport*/
